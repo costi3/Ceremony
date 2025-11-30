@@ -17,7 +17,7 @@ export default function Home(){
         <Logo />
         <div className="subtitle" style={{fontSize: 17}}>
          <strong>Pre-Ceremony Assesment</strong>
-          <div className="subtitle">Prepare for your upcoming Diagnostic Ceremony <br/> and receive a tier prediction</div>
+          <div className="subtitle">Prepare for your upcoming  <br/><strong>Diagnostic Ceremony</strong>  <br/> and receive a Tier prediction</div>
         </div>
 
         <button className="btn-primary" onClick={() => nav("/form")}>Start your diagnosis</button>
