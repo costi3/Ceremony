@@ -32,6 +32,7 @@ export default function CameraPage(){
             audio={false}
             ref={webcamRef}
             screenshotFormat="image/jpeg"
+            mirrored={false}
             videoConstraints={videoConstraints}
             style={{ width:"100%", height:"100%", objectFit:"cover" }}
           />

@@ -54,7 +54,21 @@ export default function ResultPage({ borderColor, tierLabel, titleColor, list, l
             Based on the data that we gathered <br /> you belong to
           </p>
 
-          <h2 style={{ color: titleColor, textAlign: "center" }}>{tierLabel}</h2>
+          <div style={{ textAlign: "center", marginTop: 8 }}>
+            {logo && (
+              <img
+                src={logo}
+                alt="tier logo"
+                style={{
+                  width: "100px",       
+                  height: "auto",
+                  marginBottom: "6px"
+                }}
+              />
+            )}
+
+            <h2 style={{ color: titleColor, margin: 0 }}>{tierLabel}</h2>
+          </div>
 
           <ul className="list">
             {list.map((item, index) => (
@@ -63,8 +77,6 @@ export default function ResultPage({ borderColor, tierLabel, titleColor, list, l
           </ul>
         </div>
       </div>
-
-      {logo && <img src={logo} alt="tier logo" className="tier-logo" />}
 
       <div className="footer-small">Ministry of Mental Order</div>
     </div>
