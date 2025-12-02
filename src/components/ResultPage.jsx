@@ -22,7 +22,8 @@ export default function ResultPage({ borderColor, tierLabel, titleColor, list, l
             fontSize: 22,
             cursor: "pointer",
             lineHeight: 1,
-            zIndex: 10
+            zIndex: 10,
+            color: titleColor,
           }}
           aria-label="close"
         >

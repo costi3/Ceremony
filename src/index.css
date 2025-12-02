@@ -47,6 +47,7 @@ button, input, textarea, select {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin:24px;
 }
 
 .title {
@@ -64,7 +65,8 @@ button, input, textarea, select {
 .card {
   background: white;
   color: black;
-  width: 320px;
+  width:100%;
+  max-width: 320px;
   min-height: 320px;
   border-radius: 14px;
   padding: 20px;
@@ -74,7 +76,7 @@ button, input, textarea, select {
   justify-content: space-evenly;
   box-shadow: 0 1px 0 rgba(0,0,0,0.06);
   z-index: 10;
-
+  box-sizing: border-box;
 }
 
 .footer-small{
