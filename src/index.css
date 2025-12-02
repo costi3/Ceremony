@@ -151,6 +151,10 @@ button, input, textarea, select {
   justify-content:center;
 }
 
+.webcam-area video {
+  transform: none !important;
+}
+
 .face-oval {
   position:absolute;
   top:40px;
